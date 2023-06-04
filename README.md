@@ -40,7 +40,7 @@ You can also skip the installation run the application by clicking on the follow
 
 This application is deployed on Heroku. You can access the application by clicking on the following link: <https://youngs-note-taker.herokuapp.com/>
 
-You can also run the application locally by running the following command:
+You can also run the application locally by running the following command after local installation:
 
 ```bash
 npm start
