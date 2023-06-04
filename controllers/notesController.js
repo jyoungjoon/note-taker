@@ -6,7 +6,7 @@ const {
   deleteNoteById,
 } = require('../services/notesService');
 
-async function allNotes(req, res, next) {
+async function allNotes(req, res) {
   // All notes are retrieved from the db.json file
   try {
     const notes = await getAllNotes();
@@ -16,7 +16,7 @@ async function allNotes(req, res, next) {
   }
 }
 
-async function addNote(req, res, next) {
+async function addNote(req, res) {
   // The new note is created and added to the db.json file
   try {
     const { title, text } = await req.body;
@@ -28,7 +28,7 @@ async function addNote(req, res, next) {
   }
 }
 
-async function deleteNote(req, res, next) {
+async function deleteNote(req, res) {
   // The note is deleted from the db.json file
   try {
     const updatedNotes = await deleteNoteById(req.params.id);
