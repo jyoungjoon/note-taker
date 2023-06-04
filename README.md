@@ -32,13 +32,13 @@ Installation is required to run the application locally. To install the applicat
 npm install
 ```
 
-You can also skip the installation run the application by clicking on the following link: https://youngs-note-taker.herokuapp.com/
+You can also skip the installation run the application by clicking on the following link: <https://youngs-note-taker.herokuapp.com/>
 
 ---
 
 ## Usage
 
-This application is deployed on Heroku. You can access the application by clicking on the following link: https://youngs-note-taker.herokuapp.com/
+This application is deployed on Heroku. You can access the application by clicking on the following link: <https://youngs-note-taker.herokuapp.com/>
 
 You can also run the application locally by running the following command:
 
@@ -46,7 +46,7 @@ You can also run the application locally by running the following command:
 npm start
 ```
 
-Then, open your browser and go to http://localhost:3001/
+Then, open your browser and go to <http://localhost:3001/>
 
 ---
 
@@ -58,7 +58,7 @@ This project is licensed under the ISC license. Please see LICENSE.md for more i
 
 ## Credits
 
-Starter code was provided by the University of California Berkeley Coding Bootcamp. Great staff members and TAs at the bootcamp helped me with this project.
+Starter code was provided by the University of California Berkeley Coding Boot Camp. Great staff members and TAs at the boot camp helped me with this project.
 
 Special thanks to Jili Jiang (a tutor) for helping me with this project! She is a great tutor and I highly recommend her!
 
@@ -82,6 +82,6 @@ If you have any questions about the repo, open an issue or contact me directly a
 
 Github: [jyoungjoon](https://github.com/jyoungjoon)
 
-Email: lifescriptified@gmail.com
+Email: <lifescriptified@gmail.com>
 
 ---
