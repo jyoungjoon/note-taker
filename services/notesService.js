@@ -25,7 +25,6 @@ async function addNewNote(note) {
   // The new note is added to the db.json file with the push method:
   parsedData.push(note);
   await writeFile(parsedData);
-
   return note;
 }
 
@@ -34,7 +33,6 @@ async function deleteNoteById(id) {
   // The note is deleted from the db.json file with the filter method:
   const filteredData = parsedData.filter((note) => note.id !== id);
   await writeFile(filteredData);
-
   return filteredData;
 }
 
