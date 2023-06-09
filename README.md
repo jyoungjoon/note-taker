@@ -2,7 +2,7 @@
 
 ---
 
-# Note Taker Application
+# Note Taker Application (Offline since 06/09/2023)
 
 ## Description
 
